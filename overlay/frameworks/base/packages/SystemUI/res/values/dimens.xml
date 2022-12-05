@@ -6,7 +6,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Adjust the icon padding in status bar for rounded corners --> 
-    <dimen name="rounded_corner_content_padding">52px</dimen>
+    <dimen name="rounded_corner_content_padding">55px</dimen>
+    <dimen name="status_bar_padding_top">2dp</dimen>
 
     <!-- Location on the screen of the center of the fingerprint sensor. For devices with under
      display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.

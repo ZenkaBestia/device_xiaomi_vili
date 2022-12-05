@@ -143,34 +143,13 @@
          backlight values for lux levels between these control points.
          Must be overridden in platform specific overlays -->
     <array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>2</item>
-        <item>5</item>
-        <item>9</item>
-        <item>13</item>
-        <item>17</item>
-        <item>21</item>
-        <item>26</item>
+        <item>10</item>
         <item>30</item>
-        <item>40</item>
-        <item>83</item>
-        <item>104</item>
-        <item>200</item>
-        <item>400</item>
-        <item>500</item>
-        <item>600</item>
-        <item>700</item>
-        <item>800</item>
-        <item>1000</item>
-        <item>1200</item>
-        <item>1500</item>
-        <item>1800</item>
-        <item>2000</item>
-        <item>2165</item>
-        <item>2680</item>
-        <item>3000</item>
-        <item>3540</item>
-        <item>4000</item>
+        <item>60</item>
+        <item>100</item>
+        <item>150</item>
+        <item>210</item>
+        <item>255</item>
     </array>
     
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -191,7 +170,17 @@
         <item>3.5</item>
         <item>1000</item>
     </array>
-    
+
+    <array name="config_autoBrightnessLcdBacklightValues">
+	<item>10</item>
+	<item>20</item>
+	<item>40</item>
+	<item>70</item>
+	<item>110</item>
+	<item>160</item>
+	<item>200</item>
+	<item>255</item>
+    </array>    
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
