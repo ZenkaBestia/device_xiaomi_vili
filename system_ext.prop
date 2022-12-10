@@ -1,6 +1,10 @@
 # DPM
 persist.vendor.dpm.feature=11
 
+# Keyboard height ratio and bottom padding in dp for portrait mode
+ro.com.google.ime.height_ratio=1.0
+ro.com.google.ime.kb_pad_port_b=10.0
+
 # Media
 vendor.media.target_variant=_lahaina
 vendor.mm.enable.qcom_parser=16777215
