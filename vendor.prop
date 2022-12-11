@@ -131,13 +131,6 @@ dalvik.vm.dex2oat64.enabled=true
 # Display
 debug.sf.latch_unsignaled=0
 
-# Display Refresh Rate
-ro.surface_flinger.set_idle_timer_ms?=4000
-ro.surface_flinger.set_touch_timer_ms?=4000
-ro.surface_flinger.set_display_power_timer_ms?=1000
-ro.surface_flinger.use_content_detection_for_refresh_rate=true
-vendor.display.defer_fps_frame_count?=2
-
 # DPM
 persist.vendor.dpm.feature=1
 persist.vendor.dpm.idletimer.mode=default
@@ -179,6 +172,7 @@ ro.surface_flinger.set_display_power_timer_ms?=1000
 ro.surface_flinger.set_idle_timer_ms?=350
 ro.surface_flinger.set_touch_timer_ms?=200
 ro.surface_flinger.use_color_management=true
+ro.surface_flinger.use_content_detection_for_refresh_rate?=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.vendor.sf.enable_fb_scaling=1
 vendor.display.comp_mask=0
